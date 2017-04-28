@@ -26,7 +26,7 @@ check.addEventListener("click", function(){
   if(textCaptcha.value!=captcha.value){
     console.log(textCaptcha.value);
     console.log(captcha.value);
-    result.innerHTML = "El captcha introducIDO es incorrecto, intente de nuevo";
+    result.innerHTML = "El captcha introducido es incorrecto, intente de nuevo";
   }
   else {
     result.innerHTML="";

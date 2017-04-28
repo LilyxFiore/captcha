@@ -1,11 +1,16 @@
 .content{
-  width: 60%;
   margin: auto;
-  margin-top: 30px;
+  width: 40%;
+  height: 300px;
+  margin-top: 40px;
+  background-color: #8b1e2e;
+  padding: 20px;
 }
 
 #captcha{
-  width: 300px;
+  display: block;
+  width: auto;
+  margin: auto;
   height: 100px;
   font-family: Raleway, sans-serif;
   font-size: 35px;
