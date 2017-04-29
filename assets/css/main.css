@@ -1,3 +1,7 @@
+body{
+  text-align: center;
+}
+
 .content{
   margin: auto;
   width: 50%;
@@ -59,4 +63,54 @@
   height: 140px;
   float: right;
   top: 20px;
+}
+
+#text{
+  background-color: rgb(249,231,119);
+  border: 0;
+  width: 55%;
+  margin-top: 20px;
+  height: 150px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#recaptcha{
+  position: relative;
+  font-size: 40px;
+  background-image:url("../img/load.png");
+  background-size: cover;
+  background-color: #8b1e2e;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  bottom: 40px;
+  left: 20px;
+}
+
+#validate{
+  position: relative;
+  background-image:url("../img/check.png");
+  background-size: cover;
+  background-color: #8b1e2e;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  right: 20px;
+  top: 10px;
+}
+
+.recaptcha-logo{
+  position: relative;
+  background-image: url("../img/recaptcha_logo.png");
+  background-size: cover;
+  width: 220px;
+  height: 140px;
+  float: right;
+  top: 20px;
+}
+
+#result{
+  font-size: 24px;
+  font-family: sans-serif;
 }

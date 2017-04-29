@@ -24,11 +24,9 @@ function generatorCaptcha(){
 
 check.addEventListener("click", function(){
   if(textCaptcha.value!=captcha.value){
-    console.log(textCaptcha.value);
-    console.log(captcha.value);
     result.innerHTML = "El captcha introducido es incorrecto, intente de nuevo";
   }
   else {
-    result.innerHTML="";
+    result.innerHTML="El captcha introducido es correcto";
   }
 })
